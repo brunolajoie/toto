@@ -1,3 +1,6 @@
+from sklearn.preprocessing import StandardScaler
+
 class Trainer():
     def train():
-        pass
+        scaler = StandardScaler()
+        return scaler
