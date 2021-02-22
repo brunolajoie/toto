@@ -1,3 +1,12 @@
+from sklearn.ensemble import RandomForestRegressor
+
+
 class Trainer():
+
     def train():
-        pass
+
+        # TODO: call preprocessing
+
+        model = RandomForestRegressor()
+
+        # TODO: train model
